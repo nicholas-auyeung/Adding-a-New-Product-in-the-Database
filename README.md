@@ -33,27 +33,31 @@ This program is a servlet-based web application that shows a form to add new pro
 
 6. Create 'HibernateUtility' class inside 'com.utility'
 
-7. Define 'Product' class
+7. Create hibernate.cfg.xml
 
-8. Define 'HibernateUtility' class
+8. Configure hibernate.cfg.xml for update, xml mapping, and database connection settings
 
-9. Create 'productform.jsp' jsp page
+9. Define 'Product' class
 
-10. Inside 'productform.jsp' implement working form and set action to 'productValidation'
+10. Define 'HibernateUtility' class
 
-11. Define 'productValidation' servlet
+11. Create 'productform.jsp' jsp page
 
-12. Inside 'productValidation' check for all possible input errors
+12. Inside 'productform.jsp' implement working form and set action to 'productValidation'
 
-13. If input errors exist, foward back to 'productform.jsp' with error message
+13. Define 'productValidation' servlet
 
-14. If no input errors exist forward input data to 'productInsert' servlet
+14. Inside 'productValidation' check for all possible input errors
 
-15. Define 'productInsert' servlet
+15. If input errors exist, foward back to 'productform.jsp' with error message
 
-16. Inside 'productInsert' set up hibernate session and transaction, create product object with user input, save it into session and commit the transaction.
+16. If no input errors exist forward input data to 'productInsert' servlet
 
-17. If success foward success message to 'productform.jsp'
+17. Define 'productInsert' servlet
+
+18. Inside 'productInsert' set up hibernate session and transaction, create product object with user input, save it into session and commit the transaction.
+
+19. If success foward success message to 'productform.jsp'
 
 ## Usage
 
