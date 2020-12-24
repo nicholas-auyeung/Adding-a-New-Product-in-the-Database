@@ -60,7 +60,7 @@ This program is a servlet-based web application that shows a form to add new pro
 	Once run, the webpage will ask user for product id and name
 ![](screenshots/insertproduct.png)
 
-User inputs incorrect product details
+User inputs incorrect product details (product id only accepts numeric characters)
 	
 	User will be prompt with 'invalid product id' or 'product id already exists' message 
 ![](screenshots/invalidproductinput.png)
